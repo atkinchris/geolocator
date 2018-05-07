@@ -1,0 +1,23 @@
+{
+  "name": "geolocator",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Chris Atkin <atkinchris@gmail.com>",
+  "main": "lib.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "@google/maps": "^0.4.6"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "jest": "^22.4.3"
+  },
+  "jest": {
+    "resetMocks": true,
+    "resetModules": true
+  }
+}
